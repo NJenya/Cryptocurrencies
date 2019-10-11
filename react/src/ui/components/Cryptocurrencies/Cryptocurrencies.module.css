@@ -1,0 +1,14 @@
+header {
+	display: flex;
+	background-color: cornflowerblue;
+	height: 100px;
+	flex-direction: column;
+	color: white;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
