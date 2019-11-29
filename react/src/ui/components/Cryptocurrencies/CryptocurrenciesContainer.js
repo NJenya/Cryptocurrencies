@@ -6,12 +6,15 @@ import {getCoinData} from "../../../redux/actions/cryptocurrencies";
 class CryptocurrenciesContainer extends Component {
 
   componentDidMount() {
+
     this.props.getCoinData()
   }
 
+
+
   render() {
     return (
-      <Cryptocurrencies {...this.props} />
+      <Cryptocurrencies {...this.props}  />
     )
   }
 }
